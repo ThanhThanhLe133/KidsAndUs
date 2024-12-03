@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../../Styles/header.css">
     <link rel="stylesheet" href="../../Styles/register-form.css">
     <link rel="stylesheet" href="../../Styles/footer.css">
+    <link rel="stylesheet" href="../../Styles/chat-form.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="../../Styles/animation-general.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,10 +74,12 @@
                                     <li class="submenu__item"><a class="submenu__link" href="../3-8/index.html">Khóa học
                                             cho trẻ 3-8
                                             tuổi</a></li>
-                                    <li class="submenu__item"><a class="submenu__link" href="../9-12/index.html">Khóa học cho trẻ
+                                    <li class="submenu__item"><a class="submenu__link" href="../9-12/index.html">Khóa
+                                            học cho trẻ
                                             9-12
                                             tuổi</a></li>
-                                    <li class="submenu__item"><a class="submenu__link" href="../13-18/index.html">Khóa học cho trẻ
+                                    <li class="submenu__item"><a class="submenu__link" href="../13-18/index.html">Khóa
+                                            học cho trẻ
                                             13-18
                                             tuổi</a></li>
                                 </ul>
@@ -182,29 +185,29 @@
                     <div class="introduce__panel-grid">
                         <div class="introduce__image-container">
                             <a href="#1-year-old"">
-                                <img src="images/icon-musy.png" class="introduce__image" />
+                                <img src=" images/icon-musy.png" class="introduce__image" />
                             </a>
                         </div>
                         <div class="introduce__headline-container">
                             <h5 class="introduce__headline">
                                 <a href="#1-year-old"">Mousy</a>
                             </h5>
-                            <p class="introduce__sub-headline">
-                                Tiếng Anh cho trẻ 1 tuổi</p>
+                            <p class=" introduce__sub-headline">
+                                    Tiếng Anh cho trẻ 1 tuổi</p>
                         </div>
                     </div>
                     <div class="introduce__panel-grid">
                         <div class="introduce__image-container">
                             <a href="#2-year-old"">
-                                <img src="images/icon-linda.png" class="introduce__image" />
+                                <img src=" images/icon-linda.png" class="introduce__image" />
                             </a>
                         </div>
                         <div class="introduce__headline-container">
                             <h5 class="introduce__headline">
                                 <a href="#2-year-old"">Linda</a>
                             </h5>
-                            <p class="introduce__sub-headline">
-                                Tiếng Anh cho trẻ 2 tuổi</p>
+                            <p class=" introduce__sub-headline">
+                                    Tiếng Anh cho trẻ 2 tuổi</p>
                         </div>
                     </div>
                 </div>
@@ -231,7 +234,7 @@
                     </div>
                 </div>
                 <div class="courses__grid courses__grid--two wave-effect" id="2-year-old">
-                    <div class="courses__item courses__item--two" >
+                    <div class="courses__item courses__item--two">
                         <div class="courses__image">
                             <img src="images/DETALLBABIES_2.png" alt="Khóa học cho trẻ 2 tuổi"
                                 class="courses__image-file" />
@@ -414,12 +417,18 @@
                     <h4 class="footer__title">CƠ SỞ</h4>
                     <div class="footer__content">
                         <ul class="footer-links">
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Nguyễn Thị Thập</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cityland Park Hills</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cao Đức Lân</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Sư Vạn Hạnh</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Lê Văn Việt</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Tên Lửa</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Nguyễn
+                                    Thị Thập</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html"
+                                    class="footer__link">Cityland Park Hills</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cao Đức
+                                    Lân</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Sư Vạn
+                                    Hạnh</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Lê Văn
+                                    Việt</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Tên
+                                    Lửa</a></li>
                         </ul>
                     </div>
                 </div>
@@ -466,7 +475,60 @@
         </div>
     </footer>
 
+    <!-- Help Button -->
+    <button class="helpButton" onclick="popUp()">
+        <img src="../../Images/chat.png" class="helpButton__icon" alt="Help Icon" />
+    </button>
+
+    <!-- Popup Form -->
+    <div id="popup" class="popup" style="display: none;">
+        <div class="popup__heading">
+            <div class="popup__heading-title">
+                <h1>Kids&Us Vietnam</h1>
+                <button class="popup__close" onclick="popUp()">-</button>
+            </div>
+            <p class="popup__heading-content">
+                Anh chị vui lòng điền vào biểu mẫu dưới đây và Kids&Us Vietnam sẽ liên hệ lại với anh chị ngay khi có
+                thể.
+            </p>
+        </div>
+
+        <form class="popup__form" onsubmit="submitForm(event)">
+            <div class="popup__form-field">
+                <label class="popup__form-label">Họ và tên<sup>*</sup></label>
+                <input type="text" name="name" class="popup__form-input" placeholder="Tên của bạn"
+                    onblur="handleBlur(event)" required />
+                <span id="name-error" class="popup__form-error" style="display: none;">Please complete this required
+                    field.</span>
+            </div>
+
+            <div class="popup__form-field">
+                <label class="popup__form-label">Số điện thoại<sup>*</sup></label>
+                <input type="text" name="phone" class="popup__form-input" placeholder="Số điện thoại của bạn"
+                    onblur="handleBlur(event)" required />
+                <span id="phone-error" class="popup__form-error" style="display: none;">Please complete this required
+                    field.</span>
+            </div>
+
+            <div class="popup__form-field">
+                <label class="popup__form-label">Email</label>
+                <input type="email" name="email" class="popup__form-input" placeholder="Email của bạn" />
+            </div>
+
+            <div class="popup__form-field">
+                <label class="popup__form-label">Lời nhắn<sup>*</sup></label>
+                <textarea name="message" class="popup__form-textarea" placeholder="Nhập tin nhắn của bạn"
+                    onblur="handleBlur(event)" required></textarea>
+                <span id="message-error" class="popup__form-error" style="display: none;">Please complete this required
+                    field.</span>
+            </div>
+
+            <button type="submit" class="popup__form-submit">Gửi tin nhắn</button>
+        </form>
+    </div>
+
     <script src="script.js"></script>
+    <script src="../../Animation/chat-form.js"></script>
     <script src="../../Animation/header-fix.js"></script>
     <script src="../../Animation/register-form.js"></script>
     <script src="../../Animation/load-effect.js"></script>
