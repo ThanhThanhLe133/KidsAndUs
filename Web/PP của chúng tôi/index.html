@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../Styles/general-styles.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../Styles/header.css">
+    <link rel="stylesheet" href="../../Styles/chat-form.css">
     <link rel="stylesheet" href="../../Styles/register-form.css">
     <link rel="stylesheet" href="../../Styles/footer.css">
     <link rel="stylesheet" href="animation.css">
@@ -587,8 +588,60 @@
         </div>
     </footer>
 
+    <!-- Help Button -->
+    <button class="helpButton" onclick="popUp()">
+        <img src="../../Images/chat.png" class="helpButton__icon" alt="Help Icon" />
+    </button>
+
+    <!-- Popup Form -->
+    <div id="popup" class="popup" style="display: none;">
+        <div class="popup__heading">
+            <div class="popup__heading-title">
+                <h1>Kids&Us Vietnam</h1>
+                <button class="popup__close" onclick="popUp()">-</button>
+            </div>
+            <p class="popup__heading-content">
+                Anh chị vui lòng điền vào biểu mẫu dưới đây và Kids&Us Vietnam sẽ liên hệ lại với anh chị ngay khi có thể.
+            </p>
+        </div>
+
+        <form class="popup__form" onsubmit="submitForm(event)">
+            <div class="popup__form-field">
+                <label class="popup__form-label">Họ và tên<sup>*</sup></label>
+                <input type="text" name="name" class="popup__form-input" placeholder="Tên của bạn"
+                    onblur="handleBlur(event)" required />
+                <span id="name-error" class="popup__form-error" style="display: none;">Please complete this required
+                    field.</span>
+            </div>
+
+            <div class="popup__form-field">
+                <label class="popup__form-label">Số điện thoại<sup>*</sup></label>
+                <input type="text" name="phone" class="popup__form-input" placeholder="Số điện thoại của bạn"
+                    onblur="handleBlur(event)" required />
+                <span id="phone-error" class="popup__form-error" style="display: none;">Please complete this required
+                    field.</span>
+            </div>
+
+            <div class="popup__form-field">
+                <label class="popup__form-label">Email</label>
+                <input type="email" name="email" class="popup__form-input" placeholder="Email của bạn" />
+            </div>
+
+            <div class="popup__form-field">
+                <label class="popup__form-label">Lời nhắn<sup>*</sup></label>
+                <textarea name="message" class="popup__form-textarea" placeholder="Nhập tin nhắn của bạn"
+                    onblur="handleBlur(event)" required></textarea>
+                <span id="message-error" class="popup__form-error" style="display: none;">Please complete this required
+                    field.</span>
+            </div>
+
+            <button type="submit" class="popup__form-submit">Gửi tin nhắn</button>
+        </form>
+    </div>
+
     <script src="script.js"></script>
     <script src="../../Animation/header-fix.js"></script>
+    <script src="../../Animation/chat-form.js"></script>
     <script src="../../Animation/register-form.js"></script>
     <script src="../../Animation/load-effect.js"></script>
 </body>
