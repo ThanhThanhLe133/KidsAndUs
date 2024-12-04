@@ -1,7 +1,4 @@
 $(document).ready(() => {
-    window.onload = function() {
-        window.location.reload();
-    };
 
     //slide image .top
     let currentIndex1 = 0;
