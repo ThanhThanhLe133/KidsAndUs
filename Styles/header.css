@@ -85,11 +85,12 @@
     padding: 0px 8px;
 }
 
-.nav__item--active,
 .nav__text:hover {
     color: #171100;
 }
-
+.nav__item--active p{
+    color: #171100;
+}
 .nav__submenu {
     display: none;
     position: absolute;
