@@ -237,4 +237,17 @@ strong{
     flex-wrap: wrap;
 }
 
+.questions .content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title--black {
+    color: #333;
+}
+
+.title--black span {
+    color: #e12b61;
+}
+
 

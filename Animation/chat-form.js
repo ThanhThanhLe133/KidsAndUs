@@ -3,6 +3,11 @@ let data = {};
 let error = {};
 let isOpen = false;
 
+function closePrePopUp(){
+    const popup = document.getElementById('prePopup');
+    popup.style.display = 'none';
+}
+
 // Toggle popup visibility
 function popUp() {
     isOpen = !isOpen;

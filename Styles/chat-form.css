@@ -1,3 +1,36 @@
+/*Pre popup*/
+.prePopup {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.prePopup__content {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 200px; 
+    font-weight: bold;
+}
+
+.prePopup__close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
 /* chat form */
 .helpButton {
     position: fixed;
@@ -21,17 +54,18 @@
 }
 
 .popup__heading{
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: #fe699f;
     border-radius: 10px;
-    color: var(--white-color);
+    color: #fff;
+    line-height: 1.5em;
 }
 
 .popup__heading-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #333;
     font-weight: bold;
     font-size: x-large;
@@ -62,12 +96,14 @@
 
 .popup__form {
     width: 300px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
     margin: auto;
+    max-height: 300px;
+    overflow-y: scroll;
 }
 
 .popup__form-field {
@@ -80,15 +116,21 @@
     color: #333;
 }
 
+.popup__form-label sup {
+    color: red;
+}
+
 .popup__form-input,
 .popup__form-textarea {
-    border: 1px solid #ccc;
+    border: 1px solid gainsboro;
+    background-color:gainsboro;
     border-radius: 4px;
     padding: 10px;
     font-size: 14px;
     outline: none;
     transition: border-color 0.2s ease-in-out;
     margin-top: 5px;
+    font-family: "Roboto", sans-serif;
 }
 
 .popup__form-error {
@@ -103,7 +145,7 @@
 
 .popup__form-textarea {
     resize: none;
-    min-height: 100px;
+    min-height: 50px;
 }
 
 .popup__form-submit {
@@ -114,7 +156,7 @@
     border-radius: 5px;
     cursor: pointer;
     background-color: #fe699f;
-    color: var(--white-color);
+    color: #fff;
 }
 
 .popup__form-submit:hover {
