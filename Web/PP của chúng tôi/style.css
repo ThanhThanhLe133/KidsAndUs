@@ -99,6 +99,21 @@
     background-color: #d5e0a8;
 }
 
+.grid-container.three {
+    height: 460px;
+    background-color: #f5d0c2;
+}
+
+.grid-container.four {
+    height: 460px;
+    background-color: #d0eded;
+}
+
+.grid-container.five {
+    height: 460px;
+    background-color: #f6bfcf;
+}
+
 .grid-item{
     max-width: 1150px;
     margin:0 auto;
@@ -153,6 +168,18 @@ strong{
 .sow-image-container--base-method img{
     width: 300px; 
     height: 230px;
+}
+
+.sow-headline-container{
+    margin: 12px;
+}
+.sow-headline-container a{
+    color: #1e4b75;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sow-headline, .sow-sub-headline{
+    margin: 12px;
 }
 
 .method__grid-detail-title{
