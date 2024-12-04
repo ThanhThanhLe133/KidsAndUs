@@ -38,16 +38,16 @@
                 </div>
                 <div class="top-header__language">
                     <div class="language__flag">
-                        <img src="images/vn flag.png" alt="VN flag" />
+                        <img src="../../images/vn flag.png" alt="VN flag" />
                     </div>
                     <span class="language__text">TIẾNG VIỆT</span>
-                    <div class="language__icon"><img src="images/chevron-down.png" alt="" /></div>
+                    <div class="language__icon"><img src="../../images/chevron-down.png" alt="" /></div>
                 </div>
             </div>
             <div class="main-container__header--fixed">
                 <div class="header__body">
                     <!-- logo -->
-                    <img src="images/kids and us.png" alt="" class="logo" />
+                    <img src="../../images/kids and us.png" alt="" class="logo" />
 
                     <!-- nav -->
                     <nav class="header__nav">
@@ -409,10 +409,102 @@
                     </div>
                 </div>
             </div>
+            <!-- register -->
+            <div class="register wave-effect" id="register-form">
+                <div class="register__body">
+                    <div class="register__form">
+                        <fieldset class="register__fieldset">
+                            <div class="register__logo">
+                                <img src="../../images/kids and us.png" alt="Kids and Us" />
+                            </div>
+                            <div class="register__announcement">Kid&Us đang tuyển sinh các bé từ 1-7 tuổi</div>
+                            <div class="register__grid">
+                                <div class="register__grid-item">
+                                    <div class="register__field register__field--first-name">
+                                        <div class="register__label">First name (Tên)<sup>*</sup></div>
+                                        <div class="register__example">Tên: ví dụ : Ngọc</div>
+                                        <input class="register__input" type="text" required />
+                                        <span class="register__error">Please complete this required field.</span>
+                                    </div>
+                                    <div class="register__field register__field--last-name">
+                                        <div class="register__label">Last name (Họ và tên đệm)<sup>*</sup></div>
+                                        <div class="register__example">Tên: ví dụ : Ngọc</div>
+                                        <input class="register__input" type="text" required />
+                                        <span class="register__error">Please complete this required field.</span>
+                                    </div>
+                                </div>
+                                <div class="register__grid-item">
+                                    <div class="register__field register__field--phone-number">
+                                        <div class="register__label">Phone number (Sdt)<sup>*</sup></div>
+                                        <input class="register__input" type="register__example" placeholder="+84"
+                                            required />
+                                        <span class="register__error">Please complete this required field.</span>
+                                    </div>
+                                    <div class="register__field register__field--email">
+                                        <div class="register__label">Email<sup>*</sup></div>
+                                        <input class="register__input" type="email" required />
+                                        <span class="register__error">Please complete this required field.</span>
+                                    </div>
+                                </div>
+                                <div class="register__grid-item">
+                                    <div class="register__field register__field--study-school">
+                                        <div class="register__label">Study school (KUVN) - Cơ sở muốn đăng
+                                            ký<sup>*</sup></div>
+                                        <select class="register__select" title="Please Select">
+                                            <option value="" selected hidden>Please Select</option>
+                                            <option value="" disabled>Please Select</option>
+                                            <option value="ntt">Kid&Us Nguyen Thi Thap</option>
+                                            <option value="school2">Kid&Us City Land Park Hills</option>
+                                            <option value="school3">Kid&Us Cao Đức Lân</option>
+                                            <option value="school2">Kid&Us Sư Vạn Hạnh</option>
+                                            <option value="school3">Kid&Us Lê Văn Việt</option>
+                                            <option value="school3">Kid&Us Tên Lửa</option>
+                                        </select>
+                                        <span class="register__error">Please complete this required field.</span>
+                                    </div>
+                                    <div class="register__field register__field--birth-year">
+                                        <div class="register__label">Birth Year (Năm sinh của bé)<sup>*</sup></div>
+                                        <select class="register__select">
+                                            <option class="please" value="" selected hidden>Please Select</option>
+                                            <option value="" disabled>Please Select</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                            <option value="2024">2024</option>
+                                        </select>
+                                        <span class="register__error">Please complete this required field.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="register__privacy-policy">
+                                <span class="register__agreement">Bằng việc đăng ký thông tin, bạn đồng ý với </span>
+                                <a href="#" class="register__link register__link--privacy">Chính sách bảo mật</a>
+                                <span class="register__agreement"> và </span>
+                                <a href="#" class="register__link register__link--terms">Điều khoản sử dụng</a>
+                                <span class="register__agreement"> của chúng tôi. Cho phép Kids&Us sử dụng thông
+                                    tin
+                                    mà bạn đã cung cấp nhằm mục đích tư vấn, tiếp thị sản phẩm và nghiên cứu thị
+                                    trường.</span>
+                            </div>
+
+                            <div class="register__submit">
+                                <button type="submit" class="btn register__button">Submit</button>
+                            </div>
+                        </fieldset>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
-     <!-- footer -->
-     <footer>
+    <!-- footer -->
+    <footer>
         <div class="footer__body" id="register-form">
             <div class="footer__grid">
                 <div class="footer__item">
@@ -454,12 +546,18 @@
                     <h4 class="footer__title">CƠ SỞ</h4>
                     <div class="footer__content">
                         <ul class="footer-links">
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Nguyễn Thị Thập</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cityland Park Hills</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cao Đức Lân</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Sư Vạn Hạnh</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Lê Văn Việt</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Tên Lửa</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Nguyễn
+                                    Thị Thập</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html"
+                                    class="footer__link">Cityland Park Hills</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cao Đức
+                                    Lân</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Sư Vạn
+                                    Hạnh</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Lê Văn
+                                    Việt</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Tên
+                                    Lửa</a></li>
                         </ul>
                     </div>
                 </div>
@@ -479,19 +577,19 @@
                             <li class="footer__social-item">
                                 <a class="footer__social-link--facebook" target="_blank"
                                     href="https://www.facebook.com/kidsandus.vn">
-                                    <img src="images/facebook.png">
+                                    <img src="../../images/facebook.png">
                                 </a>
                             </li>
                             <li class="footer__social-item">
                                 <a class="footer__social-link--youtube" target="_blank"
                                     href="https://www.youtube.com/channel/UCP7ErLtSVIywSh5Qdgm2AMw">
-                                    <img src="images/youtube.png">
+                                    <img src="../../images/youtube.png">
                                 </a>
                             </li>
                             <li class="footer__social-item">
                                 <a class="footer__social-link--instagram" target="_blank"
                                     href="https://www.instagram.com/kidsandus.vn/">
-                                    <img src="images/insta.png">
+                                    <img src="../../images/insta.png">
                                 </a>
                             </li>
                         </ul>
