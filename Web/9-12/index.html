@@ -74,10 +74,12 @@
                                     <li class="submenu__item"><a class="submenu__link" href="../3-8/index.html">Khóa học
                                             cho trẻ 3-8
                                             tuổi</a></li>
-                                    <li class="submenu__item"><a class="submenu__link" href="../9-12/index.html">Khóa học cho trẻ
+                                    <li class="submenu__item"><a class="submenu__link" href="../9-12/index.html">Khóa
+                                            học cho trẻ
                                             9-12
                                             tuổi</a></li>
-                                    <li class="submenu__item"><a class="submenu__link" href="../13-18/index.html">Khóa học cho trẻ
+                                    <li class="submenu__item"><a class="submenu__link" href="../13-18/index.html">Khóa
+                                            học cho trẻ
                                             13-18
                                             tuổi</a></li>
                                 </ul>
@@ -432,8 +434,8 @@
         </div>
     </main>
 
-     <!-- footer -->
-     <footer>
+    <!-- footer -->
+    <footer>
         <div class="footer__body">
             <div class="footer__grid">
                 <div class="footer__item">
@@ -475,12 +477,18 @@
                     <h4 class="footer__title">CƠ SỞ</h4>
                     <div class="footer__content">
                         <ul class="footer-links">
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Nguyễn Thị Thập</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cityland Park Hills</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cao Đức Lân</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Sư Vạn Hạnh</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Lê Văn Việt</a></li>
-                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Tên Lửa</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Nguyễn
+                                    Thị Thập</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html"
+                                    class="footer__link">Cityland Park Hills</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Cao Đức
+                                    Lân</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Sư Vạn
+                                    Hạnh</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Lê Văn
+                                    Việt</a></li>
+                            <li class="footer__link-item"><a href="../Các cơ sở/index.html" class="footer__link">Tên
+                                    Lửa</a></li>
                         </ul>
                     </div>
                 </div>
@@ -533,6 +541,12 @@
             <p>Chào mừng anh/chị đến với Kid&Us Vietnam. Em la Tư vấn viên, rất vui được hỗ trợ ạ!</p>
         </div>
     </div>
+    <div id="prePopup" class="prePopup" style="display: none;">
+        <div class="prePopup__content">
+            <button class="prePopup__close" onclick="closePrePopUp()">X</button>
+            <p>Chào mừng anh/chị đến với Kid&Us Vietnam. Em là Tư vấn viên, rất vui được hỗ trợ ạ!</p>
+        </div>
+    </div>
 
     <!-- Help Button -->
     <button class="helpButton" onclick="popUp()">
@@ -542,12 +556,16 @@
     <!-- Popup Form -->
     <div id="popup" class="popup" style="display: none;">
         <div class="popup__heading">
-            <div class="popup__heading-title">
-                <h1>Kids&Us Vietnam</h1>
+            <div class="popup__heading-image">
+                <img src="../../Images/logo-chat.png">
                 <button class="popup__close" onclick="popUp()">-</button>
             </div>
+            <div class="popup__heading-title">
+                <h1>Kids&Us Vietnam</h1>
+            </div>
             <p class="popup__heading-content">
-                Anh chị vui lòng điền vào biểu mẫu dưới đây và Kids&Us Vietnam sẽ liên hệ lại với anh chị ngay khi có thể.
+                Anh chị vui lòng điền vào biểu mẫu dưới đây và Kids&Us Vietnam sẽ liên hệ lại với anh chị ngay khi có
+                thể.
             </p>
         </div>
 
@@ -581,10 +599,9 @@
                     field.</span>
             </div>
 
-            <button type="submit" class="popup__form-submit">Gửi tin nhắn</button>
+            <button type="submit" class="popup__form-submit"><img src="../../Images/send-chat.png">GỬI TIN NHẮN</button>
         </form>
     </div>
-
     <script src="script.js"></script>
     <script src="../../Animation/chat-form.js"></script>
     <script src="../../Animation/header-fix.js"></script>
