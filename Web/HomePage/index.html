@@ -23,8 +23,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Carattere&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <style>
-    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
@@ -171,7 +172,7 @@
             <!--introduce  -->
             <div class="introduce wave-effect">
                 <div class="content">
-                    <h2 class="title">Chúng tôi là Kids&amp;Us</h2>
+                    <h2 class="title" data-aos="zoom-in-up">Chúng tôi là Kids&amp;Us</h2>
                     <p>Kids&amp;Us đã có mặt tại Tây Ban Nha, An-đô-ra, Italia, Pháp, Bỉ, Cộng hòa Séc, Mexico, Nhật
                         Bản,
                         Myanmar và
@@ -213,7 +214,8 @@
                                 Cơ
                                 hội này được tận dụng tối đa tại Kids&Us nhằm thôi thúc bé học qua các giác quan của
                                 mình.</div>
-                            <div class="btn btn-more"><a href="../1-2/index.html">Tìm hiểu thêm!</a></div>
+                            <div class="btn btn-more" data-aos="fade-up" data-aos-duration="3000"><a
+                                    href="../1-2/index.html">Tìm hiểu thêm!</a></div>
                         </div>
 
                     </div>
@@ -230,7 +232,9 @@
                                 tập bài hát, đọc hiểu và nhiều hoạt động khác đã được thiết kế phù hợp với độ tuổi và
                                 động
                                 lực của các em.</div>
-                            <button class="btn btn-more"><a href="../3-8/index.html">Tìm hiểu thêm!</a></button>
+                            <button class="btn btn-more" data-aos="fade-up" data-aos-duration="3000"><a
+                                    href="../3-8/index.html">Tìm hiểu
+                                    thêm!</a></button>
                         </div>
 
                     </div>
@@ -244,7 +248,8 @@
                                 triển bản thân. Nền tảng kỹ năng nghe nói vững chắc có từ những khóa học trước cho phép
                                 trẻ
                                 dễ dàng phát triển thêm kỹ năng đọc viết.</div>
-                            <button class="btn btn-more"><a href="../9-12/index.html">Tìm hiểu thêm!</a></button>
+                            <button class="btn btn-more" data-aos="fade-up" data-aos-duration="3000"><a
+                                    href="../9-12/index.html">Tìm hiểu thêm!</a></button>
                         </div>
                         <div class="image">
                             <img src="images/home5.jpg" />
@@ -261,7 +266,8 @@
                                 em. Ngoài ra, tại Kids&Us, chúng tôi luôn khuyến khích tư duy phản biện, giúp các em tự
                                 tin
                                 bước vào tương lai.</div>
-                            <button class="btn btn-more"><a href="../13-18/index.html">Tìm hiểu thêm!</a></button>
+                            <button class="btn btn-more" data-aos="fade-up" data-aos-duration="3000"><a
+                                    href="../13-18/index.html">Tìm hiểu thêm!</a></button>
                         </div>
                         <div class="image">
                             <img src="images/home3.jpg" />
@@ -294,28 +300,25 @@
                         </div>
                         <div class="method-list wave-effect">
                             <div class="method-asset" id="step1">
-                                <h3>Nghe </h3>
+                                <h3 data-aos="fade-right">Nghe
+                                </h3>
                                 <p> Nghe là bước đầu tiên mà trẻ làm quen với tiếng mẹ đẻ </p>
                             </div>
                             <div class="method-asset" id="step2">
-                                <h3>Hiểu</h3>
+                                <h3 data-aos="fade-right">Hiểu</h3>
                                 <p> Thông qua nghe, trẻ dần hiểu được những từ đầu tiên</p>
                             </div>
                             <div class="method-asset" id="step3">
-                                <h3>Nói </h3>
+                                <h3 data-aos="fade-left">Nói </h3>
                                 <p> Sau khi nghe và hiểu tiếng mẹ đẻ, trẻ bắt đầu tập nói </p>
                             </div>
-                            <div class="method-list-info">
-                                <div class="method-asset" id="step4">
-                                    <h3>Đọc</h3>
-                                    <p> Đọc là giai đoạn tiếp theo trong quá trình học ngôn ngữ</p>
-                                </div>
+                            <div class="method-asset" id="step4">
+                                <h3 data-aos="fade-right">Đọc</h3>
+                                <p> Đọc là giai đoạn tiếp theo trong quá trình học ngôn ngữ</p>
                             </div>
-                            <div class="method-list-info">
-                                <div class="method-asset" id="step5">
-                                    <h3>Viết</h3>
-                                    <p>Cuối cùng, trẻ hoàn thiện kỹ năng ngôn ngữ bằng việc tập viết</p>
-                                </div>
+                            <div class="method-asset" id="step5">
+                                <h3 data-aos="fade-left">Viết</h3>
+                                <p>Cuối cùng, trẻ hoàn thiện kỹ năng ngôn ngữ bằng việc tập viết</p>
                             </div>
                         </div>
                     </div>
@@ -329,22 +332,25 @@
                         <h2 class="title">Cách hoạt động bằng tiếng Anh</h2>
                         <p>Tại Kids&Us, tiếng Anh không chỉ được dùng trong lớp học, chúng tôi xây dựng rất nhiều hoạt
                             động bằng tiếng Anh để củng cố trải nghiệm học tập của học viên.</p>
-                        <div class="btn btn-see-activities arrow"><a href="../Các hoạt động bằng TA/index.html">Xem các
+                        <div class="btn btn-see-activities arrow" data-aos="zoom-out-down"><a href="../Các hoạt động bằng TA/index.html">Xem các
                                 hoạt động</a></div>
                     </div>
 
                     <div class="image">
                         <img src="images/kid-activity.jpg" />
                         <div class="rectangle">
-                            <div class="rectangle-1a">
+                            <div class="rectangle-1a" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                                data-aos-delay="300" data-aos-offset="0">
                                 <span class="story">Story</span>
                                 <span class="time">Time</span>
                             </div>
-                            <div class="rectangle-1b">
+                            <div class="rectangle-1b" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                                data-aos-delay="300" data-aos-offset="0">
                                 <span class="little">Little</span>
                                 <span class="chef">Chef</span>
                             </div>
-                            <div class="rectangle-1c">
+                            <div class="rectangle-1c" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                                data-aos-delay="300" data-aos-offset="0">
                                 <span class="art">Art</span>
                                 <span class="craft">Craft</span>
                             </div>
@@ -611,7 +617,7 @@
     </div>
 
     <script src="script.js"></script>
-    <script src="../../Animation/header-fix.js"></script>
+    <script src="../../Animation/header.js"></script>
     <script src="../../Animation/chat-form.js"></script>
     <script src="../../Animation/register-form.js"></script>
     <script src="../../Animation/load-effect.js"></script>

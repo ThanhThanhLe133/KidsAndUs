@@ -113,16 +113,15 @@
     color: #171100;
 }
 .nav__submenu {
-    display: none;
+    display: none;  
     position: absolute;
     background-color: white;
     padding: 0;
     z-index: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    list-style-type: none;
 }
 
-.header__nav>*>*:hover .nav__submenu {
+.nav__item:hover .nav__submenu {
     display: block;
 }
 

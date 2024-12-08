@@ -1,5 +1,6 @@
 $(document).ready(() => {
-     // load effect
+    AOS.init(); 
+    // load effect
      const waveElements = $(".wave-effect");
 
      const observer = new IntersectionObserver(

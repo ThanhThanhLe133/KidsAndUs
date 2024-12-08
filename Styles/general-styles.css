@@ -1,11 +1,3 @@
-/* <!-- embed font --> */
-@font-face {
-    font-family: 'proximanova';
-    src: url('../fonts/proximanova_regular.ttf') format('truetype'); /* Chỉ định đường dẫn font */
-    font-weight: normal;
-    font-style: normal;
-    letter-spacing: -0.5px;
-}
 *{
     box-sizing: border-box;
 }
@@ -23,7 +15,7 @@ body{
 }
 a{
     text-decoration: none;
-    text-decoration-color: white;
+    color: white;
 }
 
 .btn  {
