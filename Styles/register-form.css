@@ -48,7 +48,7 @@
 .register__field{
     margin: 10px;
     margin-bottom: 10px;
-    width: 45%;
+    flex: 1 1 45%;
 }
 .register sup{
     color: red;
