@@ -45,6 +45,6 @@ function handleBlur(event) {
 // Handle form submission
 function submitForm(event) {
     event.preventDefault();
-    console.log(data);
+    alert("Cảm ơn bạn đã để lại thông tin. Chúng tôi sẽ sớm liên lạc!")
     popUp();
 }
