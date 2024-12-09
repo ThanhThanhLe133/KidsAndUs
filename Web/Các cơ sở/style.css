@@ -202,11 +202,11 @@ margin:24px 0
 }
 
 .interactive__item__viewer-button:first-of-type {
-  left: 600px;
+  left: 400px;
 }
 
 .interactive__item__viewer-button:last-of-type {
-  right: 600px;
+  right: 400px;
 }
 
 .item__pos h2{
