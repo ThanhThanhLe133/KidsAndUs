@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const resetTransform = () => {
             imgElement.style.transform = 'translate(0, 0)';
         };
-
+S
         document.addEventListener('mousemove', handleMouseMove);
         document.addEventListener('mouseleave', resetTransform);
 
