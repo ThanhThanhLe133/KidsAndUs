@@ -86,6 +86,46 @@
     margin-top:48px;
 }
 
+.one img{
+    transition: transform 0.3s ease;
+}
+
+.two img{
+    transition: transform 0.3s ease;
+}
+
+.three img{
+    transition: transform 0.3s ease;
+}
+
+.four img{
+    transition: transform 0.3s ease;
+}
+
+.five img{
+    transition: transform 0.3s ease;
+}
+
+.one:hover img{
+    transform: scale(1.1);
+}
+
+.two:hover img{
+    transform: scale(1.1);
+}
+
+.three:hover img{
+    transform: scale(1.1);
+}
+
+.four:hover img{
+    transform: scale(1.1);
+}
+
+.five:hover img{
+    transform: scale(1.1);
+}
+
 .grid-container {
     display: grid;
     grid-template-rows: repeat(1, auto); 
