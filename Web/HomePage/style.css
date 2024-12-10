@@ -173,7 +173,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-    max-width: 1150px;
+    max-width: 1000px;
     padding: 48px 0
 }
 

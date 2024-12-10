@@ -2,6 +2,7 @@
  /* main */
  main{
     margin-top: 84px; 
+    overflow-x: hidden;
  }
 
 /* image-slide */
@@ -67,7 +68,7 @@
 }
 
 .textwidge--method {
-    gap: 40px;
+    gap: 10px;
 }
 .panel-grid{
     font-size: 15px;
@@ -155,7 +156,7 @@
 }
 
 .grid-item{
-    max-width: 1150px;
+    max-width: 1000px;
     margin:0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -271,7 +272,8 @@ strong{
 }
 
 .base-method .textwidge {
-    width: 1500px;
+    width: 100%
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
