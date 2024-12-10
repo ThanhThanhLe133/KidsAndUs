@@ -5,7 +5,7 @@ $(document).ready(() => {
         'images/base_13.jpg',
         'images/base_14.jpg',
         'images/base_15.jpg',
-    ]; // Replace with your images
+    ]; 
 
     let viewIndex = -1;
 
