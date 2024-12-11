@@ -61,7 +61,7 @@
 }
 
 @keyframes lePushReleaseFromTop {
-    0%, 100% {
+    0% {
         transform: translateY(-100%); 
         opacity: 0;
     }
@@ -95,3 +95,4 @@
     animation: fadeIn 2.5s ease-out forwards; 
     opacity: 1;  
 }
+        
