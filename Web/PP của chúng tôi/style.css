@@ -221,6 +221,7 @@ strong{
 }
 .sow-headline, .sow-sub-headline{
     margin: 12px;
+
 }
 
 .method__grid-detail-title{
@@ -272,7 +273,7 @@ strong{
 }
 
 .base-method .textwidge {
-    width: 100%
+    width: 100%;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;

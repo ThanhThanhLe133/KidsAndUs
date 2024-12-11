@@ -3,18 +3,15 @@
     transition: transform 0.5s;
 }
 
-.introduce img:hover {
+.introduce img:hover,.helpButton:hover {
     transform: translateY(-20px);
 }
 .number-count:hover,.rectangle-1a:hover,.rectangle-1b:hover,.rectangle-1c:hover{
     transform: scale(1.2);
     color: #ee154b;
 }
-.method-asset h3:hover {
-    transform: translateY(-10px);
-}
 
-.sow-headline:hover{
+.grid-item .image:hover,.sow-headline-container:hover{
     transform: scale(1.1);
 }
 .sow-headline:hover a{

@@ -52,46 +52,37 @@ main{
     text-align: center;
     color:#353535;
 }   
-
-
-.introduce .content, .introduce__image{
+.introduce .content{
     flex: 1 1 100%; 
-    margin:24px 0;
+    margin:32px 0;
 }
-
-.introduce__text-widget{
+.textwidge{
     display: flex;
     justify-content: space-between;
     gap: 80px;
 }
-.introduce__panel-grid{
+.panel-grid{
     font-size: 15px;
     margin: 15px;
     text-wrap: nowrap;
+    max-width: 1150px;
+    margin: 12px auto;
 }
-
-.introduce__image {
-    transition: transform 0.5s;
+.panel-grid img{
     width: 100px;
     height: 100px;
 }
-
-.introduce__image:hover {
-    transform: translateY(-20px);
-}
-
-.introduce__headline-container{
+.sow-headline-container{
     margin: 12px;
 }
-.introduce__headline-container a{
+.sow-headline-container a{
     color: #1e4b75;
     font-weight: bold;
     font-size: 18px;
 }
-.introduce__headline-container>*{
+.sow-headline, .sow-sub-headline{
     margin: 12px;
 }
-
 /* courses */
 .courses img{
     transition: transform 0.3s ease;

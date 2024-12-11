@@ -1,11 +1,14 @@
 $(document).ready(() => {
-    AOS.init(); 
+    AOS.init();
     // load effect
-     const waveElements = $(".wave-effect");
-     const observer = createObserver();
-     observeElements(observer, waveElements);
+    const waveElements = $(".wave-effect");
+    const fadeInElements = $(".fadeIn-effect");
 
-     function createObserver() {
+    const observer = createObserver();
+    observeElements(observer, waveElements);
+    observeElements(observer, fadeInElements);
+
+    function createObserver() {
         return new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -18,7 +21,7 @@ $(document).ready(() => {
         );
     }
 
-     function observeElements(observer, elements) {
+    function observeElements(observer, elements) {
         elements.each((index, el) => {
             observer.observe(el);
         });
