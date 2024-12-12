@@ -4,12 +4,12 @@ main {
 }
 
 .image-slide {
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
 
 .image-slide ul {
     display: flex;
-    transition: translateX 0.5s ease-in-out
 }
 
 .image-slide li {
@@ -58,7 +58,7 @@ main {
 
 .introduce .content,
 .introduce .image {
-    flex: 1 1 100%;
+    width: 100%;
     margin: 24px 0
 }
 
@@ -231,7 +231,6 @@ main {
 #step5 h3 {
     color: #2B2B2B
 }
-
 
 .English-activities .body {
     display: grid;
